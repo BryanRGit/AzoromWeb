@@ -1,0 +1,99 @@
+/*-----------------------------------------------------------------------------
+AZOROM
+
+WEB:      		http://www.azorom.com
+FILENAME:			/css/print.css
+VERSION:			07.07.08
+COPYRIGHT:		&copy; AZOROM Power Services Ltd	
+AUTHOR:				Jane Glynn
+
+------------------------------------------------------------------------------*/
+
+* {color: #000 !important;
+	font-family: Arial, Verdana, Geneva, Helvetica, sans-serif; 
+}
+
+h1 {font-size: 11pt !important;
+}
+h2 {font-size: 9pt !important;
+}
+p ul {font-size: 9pt !important;
+}
+.break_before { page-break-before: always; }
+#logo { 
+  display: block;
+	}
+	
+#wrapper #banner{
+	display: none;
+}
+
+#banner #date {
+	display: none;
+}
+
+#banner #mainNav {
+	display: none;
+	}
+	
+
+/* MAIN CONTENT */
+
+
+#main p {
+	font-size: 9pt;
+}
+
+#main ul {
+	font-size: 9pt;
+	text-indent: 0;
+	list-style: square none inside;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#main a {
+	font-size: 9pt;
+}
+
+#main li {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#main table {
+	margin-left: 6em;
+}
+
+#main td {
+	font-size:9pt;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	}
+
+#main tr.odd {
+  background-color: #000;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+	display: none;
+}
+
+#copyright {
+	position: float;
+	margin-top: 20px;
+}
+
+#copyright p{
+	font-size: 8pt;
+}
+
+
+a:after {content: " (" attr(href) ") ";
+}

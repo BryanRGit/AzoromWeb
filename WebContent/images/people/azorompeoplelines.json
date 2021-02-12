@@ -1,0 +1,233 @@
+{
+	"people": [
+		{
+			"Index": 1,
+			"Name": "Conor Lonergan",
+			"Title": "Managing Director",
+			"Qualifications": [
+				"BE",
+				"Chartered Engineer MIEI"
+			],
+			"ShortDescription": [
+				"Conor has extensive experience of most aspects of the electricity utility business from over 35 years work in a quality electricity utility and as a consultant in developing and emerging countries throughout the world.",
+				"He has excellent expertise in managing projects both as project director and project manager.",
+				"He has a track record of leading teams to successful deliverable of project goals.",
+				"Conor is skilled in due diligence, loss reduction, project management and change management.",
+				" He has wide experience of electricity sector restructuring and privatisation and associated institutional strengthening.",
+				"He has worked on private sector participation project development in Cote d&apos;Ivoire, Togo, Romania, Bulgaria, Georgia, Haiti and Ghana.",
+				"Conor speaks English (mother tongue) and very good French and is skilled in use of word processing and spreadsheets.",
+				" He has experience of working on projects funded by EU, World Bank, EBRD, MCC and private funding."
+			],
+			"Photo": "Conor_Lonergan_CHD_5217-small.jpg"
+		},
+		{
+			"Index": 2,
+			"Name": "Ultan O'Neill",
+			"Title": "Financial Controller",
+			"Qualifications": [
+				"BA Economics",
+				"Associate Institute of Taxation Ireland"
+			],
+			"ShortDescription": [
+				"Over 30 years electricity utility experience in every aspect of accounting and financial control including financial, customer and management accounting; auditing; materials management; procurement and project financing.",
+				"Wide experience of project cost control and monitoring including establishment of a project cost accounting, budgeting and management information systems; production of monthly cost and financial accounts to trial balance; preparation of purchase orders ensuring compliance with tendering and purchasing procedures; reporting to funding agencies including World Bank, Caisse Francaise and ODA.Extensive international consulting experience.Fully conversant with IT technology."
+			],
+			"Photo": "Ultan_O_Neill_CHD_5293-small.jpg"
+		},
+		{
+			"Index": 3,
+			"Name": "Heather Hamilton",
+			"Title": "Accounts Manager",
+			"Qualifications": [
+				"BSoc"
+			],
+			"ShortDescription": [],
+			"Photo": "Heather_Hamilton_CHD_5262-small.jpg"
+		},
+		{
+			"Index": 4,
+			"Name": "Charlie Hennessy",
+			"Title": "Commercial Manager",
+			"Qualifications": [
+				"ACMA – Associate Chartered Management Accountants (UK)",
+				"CGMA – Chartered Global Management Accountant"
+			],
+			"ShortDescription": [
+				""
+			],
+			"Photo": "Charlie Hennessy-small.jpg"
+		},
+		{
+			"Index": 5,
+			"Name": "Mika Onodera",
+			"Title": "Financial Accountant",
+			"Qualifications": [
+				"BA Business",
+				"Institute of Chartered Accountants"
+			],
+			"ShortDescription": [
+				""
+			],
+			"Photo": "Mika Onodera-small.jpg"
+		},
+		{
+			"Index": 6,
+			"Name": "Joe Murray",
+			"Title": "Bid Manager",
+			"Qualifications": [
+				"BE",
+				"MAI",
+				"Chartered Engineer MIEI"
+			],
+			"ShortDescription": [
+				"7 years consulting experience as a team leader and project manager on a broad range of electricity utility related projects, mainly in developing countries.",
+				" Highly successful in securing follow on business from satisfied clients.",
+				"10 years experience at senior management level with ESB, the national power utility in Ireland, in the procurement of all goods and services required by a power utility, with a track record of securing value for money in all areas covered.",
+				"Highly experienced in developing specifications and tender documents, tender evaluations, contract negotiation and vendor relationship management.",
+				"25 years experience in ICT, focusing on the design, deployment and support of the administrative and technical IT systems required to support the business.",
+				"Recent experience working on feasibility studies for mining developments  covering multicriteria analysis to identify optimum power supply options, budgetary costs and economic return, obtaining quotations from manufacturers and suppliers, performing discounted cash flow analysis, risk analysis and developing procurement strategy."
+			],
+			"Photo": "Joe_Murray_CHD_5250-small.jpg"
+		},
+		{
+			"Index": 7,
+			"Name": "Justine Nantale",
+			"Title": "Office Manager",
+			"Qualifications": [
+				"BA"
+			],
+			"ShortDescription": [
+				""
+			],
+			"Photo": "Justine_Natale_CHD_5345-small.jpg"
+		},
+		{
+			"Index": 8,
+			"Name": "James Duignan",
+			"Title": "Partnerships Manager",
+			"Qualifications": [
+				"MSc",
+				"BA Economics"
+			],
+			"ShortDescription": [
+				"A committed, innovative, professional with extensive consultancy and project implementation experience gained across a range of international projects in Europe, Middle East, Asia, Africa and South America.",
+				"  Proven record of successfully bidding for, and winning, major projects supported by the key funding agencies such as World Bank and EU.",
+				"  Well developed skills in Strategy and Business Planning, MIS, Financial Accounting, Regulation and Organisation Development.",
+				"  A successful Project Manager with excellent team leadership and third party relationship skills."
+			],
+			"Photo": "James_Duignan_CHD_5280-small.jpg"
+		},
+		{
+			"Index": 9,
+			"Name": "Bryan Glynn",
+			"Title": "ICT Manager",
+			"Qualifications": [
+				"BE",
+				"MBA"
+			],
+			"ShortDescription": [
+				"Bryan has over 30 years experince in software applications to the energy sector.",
+				"He was resposible for the development of GIS applications in the utilty sector.",
+				"Bryan has developed integrated systems for network planning and consumption analysis.He has integrated postGis database with DigSilent,ArcGis and QGIS. ",
+				"Bryan has developed large scale enterprises systems using Spring,java,python,Orocle,and DB2"
+			],
+			"Photo": "Bryan_Glynn_CHD_5162-small.jpg"
+		},
+		{
+			"Index": 10,
+			"Name": "Keelin O'Brien",
+			"Title": "Regulatory Specialist",
+			"Qualifications": [
+				"BSc",
+				"MBA"
+			],
+			"ShortDescription": [
+				"Electricity and Gas expert with over thirty five years senior management experience in the energy industry in a variety of roles including policy development, operations, forecasting, infrastructure development, revenue reviews and tariffs.",
+				" Significant regulatory management experience in the electricity and gas sectors at National and European level.",
+				"  Excellent knowledge of EU energy policy and legislation including third energy package, security of supply, energy Infrastructure, energy efficiency and trading.",
+				" Strong technical and strategic analytical skills gained from producing competitor and market analysis reports and developing and implementing strategies for the Irish energy sectors in response to EU policy.",
+				" Experienced and highly successful negotiator; experience gained from thirteen years management of Irish electricity and gas regulatory fora, negotiations on cross border issues, participation in European fora where policy and EU legislation are developed and engagement in dispute resolution, particularly in relation to network access.",
+				"Excellent communicator with experience of formal presentations at national and European level on a wide range of energy matters.",
+				"   Highly accomplished general manager gained from 35 years of management of all categories of staff from unskilled to professional and at all levels of experience."
+			],
+			"Photo": "Keelin_O_Brien_CHD_5241-small.jpg"
+		},
+		{
+			"Index": 11,
+			"Name": "Noel Tobin",
+			"Title": "Technical Specialist",
+			"Qualifications": [
+				"BE",
+				"Chartered Engineer FIEI"
+			],
+			"ShortDescription": [
+				"Lead Technical Losses Study project for MCA-T in Tanzania and provided technical management of subsequent short term loss reduction implementation program.",
+				"Carried out a study on technical losses for EdL the national electricity utility of Lebanon.",
+				"Prepared system load forecast for Serbia as part of a project to establish an independent transmission system and market operator.",
+				"Executed detailed evaluation of energy losses on ESB distribution system.",
+				"erforming ongoing assessment of annual loss performance.",
+				"Performed study to assess requirements to rehabilitate power system in Monrovia, Liberia after cessation of civil war there.",
+				"Provided technical assistance to Power Distribution companies on standards and loss management in Ukraine.",
+				"Prepared system planning guidelines and a planning manual to guide development of ESB distribution system."
+			],
+			"Photo": "Noel_Tobin_CHD_5204-small.jpg"
+		},
+		{
+			"Index": 12,
+			"Name": "Timothy Hennessy",
+			"Title": "Senior Project Manager",
+			"Qualifications": [
+				"BE",
+				"Chartered Engineer MIEI"
+			],
+			"ShortDescription": [
+				"Tim has over 30 years of experience in the electrical utility business through various technical and managerial positions with ESB the national electricity utility of Ireland. He has approximately 10 years experience in international consultancy projects initially with ESB International and now with AZOROM in Africa, Asia and the Middle East.",
+				"His experience is primarily in the areas of transmission and distribution, including metering, protection and commissioning.",
+				"  Tim introduced AMR to ESB and completed a strategic review which ultimately led to a decision for a full roll-out of an AMI (Smart Metering) for all ESB customers. He managed the specification and procurement of metering and ancillary equipment to meet the needs of new connections and asset replacement for ESB\u0027s 1.5 million customer base, generating revenue of \u20ac2 billion.",
+				" his career Tim has been worked in HV/MV construction projects; project management, meter asset management; specification and procurement of equipment; tender evaluation; design and commissioning of substations.",
+				" For many years Tim was the ESB nominee on the Electro-Technical Council of Ireland, a body responsible for electrical standardisation in Ireland and for developing the Irish input to IEC/CEN Standards."
+			],
+			"Photo": "Timothy_Hennessy-small.jpg"
+		},
+		{
+			"Index": 13,
+			"Name": "Brian Cronly",
+			"Title": "Senior Project Manager",
+			"Qualifications": [
+				"MIE",
+				"Chartered Engineer MIEI"
+			],
+			"ShortDescription": [
+				"Brian has over thirty-five years experience in the electrical power utility business and over twenty years at managerial level. He has spent thirteen years on overseas assignments, the majority of which time was spent in the Middle East first as Resident Engineer and then as Resident Manager on transmission projects. From 1990 to 1992 he filled the post of Resident Manager, Bahrain for ESBI\u0027s Middle East operations.",
+				" In Ireland, he was the Manager responsible for all transmission projects for the Irish National Grid. This included full contractual, commercial and engineering responsibility for over four hundred on-going projects ranging from complete 400kV substations to various smaller cables and lines jobs. Over 200 highly professional staff was employed in the group under his direction. During his time several organisational initiatives were undertaken such as e-working and restructuring for improved team performance."
+			],
+			"Photo": "Brian_Cronly_CHD_5154-small.jpg"
+		},
+		{
+			"Index": 14,
+			"Name": "Michael Mackey",
+			"Title": "Senior Project Manager",
+			"Qualifications": [
+				"MEngSc",
+				"BE"
+			],
+			"ShortDescription": [
+				"Michael has extensive experience in Ireland and overseas on both the design and commissioning of power system facilities having been involved for many years in the engineering, design and management of power plant and High Voltage (HV) network projects.",
+				" He has also been actively involved with CIGRE, the International Council on Large Electric Systems, leading technical working groups and presenting papers on various topics."
+			],
+			"Photo": "Michael_Mackey_CHD_5124-small.jpg"
+		},{
+			"Index": 15,
+			"Name": "Ken Wright",
+			"Title": "Senior Water Consultant",
+			"Qualifications": [
+				"MA",
+				"BA Business Studies"
+			],
+			"ShortDescription": [
+				"Ken has extensive experience in Ireland and overseas "
+			],
+			"Photo": "Ken_Wright_small.jpg"
+		}
+	]
+}

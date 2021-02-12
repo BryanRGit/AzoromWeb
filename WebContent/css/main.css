@@ -1,0 +1,353 @@
+/*-----------------------------------------------------------------------------
+AZOROM
+
+WEB:      		http://www.azorom.com
+FILENAME:			/css/main.css
+VERSION:			12.04.08
+COPYRIGHT:		&copy; AZOROM Power Services Ltd	
+AUTHOR:				Jane Glynn
+
+------------------------------------------------------------------------------*/
+
+/* Zero out browser formatting */
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, form, blockquote {
+			padding: 0;
+			margin: 0;
+			}
+			
+h1, h2, h3, h4, h5, h6, pre, code {
+			font-size: 1em;
+			}
+			h2 {
+			font-size: 2em;
+			}
+a {
+			text-decoration: none;
+			}
+			
+a img {
+			border: none;
+			}
+
+ul.circle {list-style-type: disc}
+
+ul.clearcircle {list-style-type: circle}
+
+ul.square {list-style-type: square}
+
+ul.none {list-style-type: none}
+
+/* BASIC */
+
+body {
+	font-size: 62.5%;
+	font-family: "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+	margin: 20px;height:100%; overflow-y:auto; 
+}
+
+/* WRAPPER: wraps entire contents of page */
+
+
+#wrapper {
+	width: 900px;
+}
+
+
+/* BANNER */
+#banner {
+	background-color: #FFF;
+	position: fixed;
+	left: 0;
+	top: 0px;
+	width: 100%;
+}
+
+/* fix IE 6: improperly positioning 
+of date in banner */
+* html #banner {
+	height: 1px;
+}
+#banner #date {
+	text-align: right;
+	width: 890px;
+	padding: 0px 0 10px 0;
+	color: #666666;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #FFF;
+	font: 1.1em "Trebuchet MS";
+}
+#logo { 
+  display: none;
+	}
+	
+/* NAVIGATION BAR*/
+
+
+#banner #mainNav {
+	position:fixed;
+	top: 116px;
+	left: 10px;
+	padding: 0 0 10px 0;
+	width: 900px;
+	background-color: #FFF;
+	}
+	
+#banner ul#mainNav {
+	margin: 10px;
+	padding: 0;
+	list-style: none;
+	border-bottom: none;
+	background-color: #FFF;
+}
+
+#banner #mainNav li {
+	float: left;
+	width: 15em;
+	background-color: #FFF;
+}
+
+/* IE Fixes to remove annoying gaps */
+#banner #mainNav li {	
+	display: inline; 
+}
+
+#banner #mainNav a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border: none;
+	border-bottom: none;
+	display: block;
+	padding: 8px 5px 5px 40px;
+	background: #FFF url(../images/link.png) no-repeat left center;
+}
+
+#banner #mainNav a:hover {
+	font-weight: bold;
+	color: #6666CC;
+	background: #FFF url(../images/go.png) no-repeat 5px 75%;
+}
+
+
+/* MAIN CONTENT */
+
+#main {
+	margin-left: 230px;
+	margin-top: 180px;
+	margin-right: 10px;
+	padding: 0 15px 15px 20px;
+	border: none;
+	border-top: none;
+	border-bottom: none;
+	background-color: #FFF;
+}
+
+#main p {
+	font-size: 1.2em;
+	margin-left: 2em;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	line-height: 140%;
+}
+.first {padding-top: 15px;}
+.bold {font-weight: bold;}
+
+
+#main h1 {
+	color: #006633;
+	padding: 0 0 5px 0;
+	font: bold 1.5em "Lucida Grande", Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+}
+
+#main h2 {
+	font-weight: bold;
+	font-size: 1.3em;
+	border-bottom: 1px solid #006633;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 2em;
+	margin-right: 10px;
+	color: #006633;
+	line-height: 140%;
+}
+
+#main ul {
+	font-size: 1.2em;
+	text-indent: -1em;
+	list-style: square none inside;
+	margin-left: 3em;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	line-height: 140%;
+}
+#main ol {
+display: block;
+font-size: 1.2em;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    line-height: 140%;
+    }
+
+#main li {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	line-height: 140%;
+}
+
+#main table {
+	margin-left: 6em;
+}
+
+#main td {
+	font-size: 1.2em;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	}
+
+#main tr.odd {
+  background-color: #E7E7E7;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+	position: fixed;
+	top: 215px;
+	left: 7px;
+	width: 225px;
+}
+#sidebar body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+
+
+/* NAVIGATION*/
+
+ul#sidebarNav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 225px;
+	border-bottom: none;
+}
+
+#sidebarNav a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.1em;
+	text-transform: uppercase;
+	border: none;
+	border-bottom: none;
+	display: block;
+	padding: 8px 5px 5px 40px;
+	background: #FFF url(../images/link.png) no-repeat left center;
+}
+
+#sidebarNav a:hover {
+	font-weight: bold;
+	color: #6666CC;
+	background: #FFF url(../images/go.png) no-repeat 5px 75%;
+}
+
+/* special formatting for home page link */
+a#homeLink {
+	background: #FFF url(../images/home.png) no-repeat 5px 52%;
+}
+
+/* styles for the "you are here" buttons */
+#home a#homeLink,
+#company a#companyLink, a#companyLink2,
+#people a#peopleLink, a#peopleLink2,
+#projects a#projectsLink, a#projectsLink2,
+#services a#servicesLink, a#servicesLink2,
+#consulting a#consultingLink, a#consultingLink2,
+#infrastruct a#infrastructLink,a#infrastructLink2,
+#project-mgmt a#project-mgmtLink, a#project-mgmtLink2,
+#contracting a#contractingLink, a#contractingLink2,
+#procurement a#procurementLink, a#procurementLink2,
+#training a#trainingLink, a#trainingLink2,
+#energy a#energyLink, a#energyLink2,
+#mapping a#mappingLink, a#mappingLink2,
+#opportunities a#opportunitiesLink, a#opportunitiesLink2,
+#contact a#contactLink a#contactLink2{
+	background: #FFFFFF url(../images/bg_here.png) no-repeat left center;
+	padding: 8px 5px 5px 40px;
+	font-weight: bold;
+}
+
+#home a#homeLink:hover,
+#company a#companyLink:hover,
+#people a#peopleLink:hover,
+#projects a#projectsLink:hover,
+#services a#servicesLink:hover,
+#consulting a#consultingLink:hover,
+#procurement a#procurementLink:hover,
+#infrastruct a#infrastructLink:hover,
+#project-mgmt a#project-mgmtLink:hover,
+#contracting a#contractingLink:hover,
+#training a#trainingLink:hover,
+#energy a#energyLink:hover,
+#mapping a#mappingLink:hover,
+#opportunities a#opportunitiesLink:hover,
+#contact a#contactLink:hover {
+	color: #6666CC;
+}
+
+/* IE Fixes */
+
+/* remove annoying gaps */
+#sidebarNav li {	
+	display: inline; 
+}
+
+/* force hover on entire width of  link */
+* html #sidebarNav a {
+	height: 1px;
+}
+
+* html #banner {position: absolute;}
+* html #sidebar {position: absolute;}
+
+
+/* Index Page Graphic */
+
+#indexgraphic{
+	margin-left: 210px;
+	margin-top: 160px;
+	padding: 0 0 15px 0;
+	}
+
+/* Copyright Information */
+
+#copyright {
+	position: fixed;
+	bottom: 0;
+	left: 5px;
+	width: 225px;
+}
+
+#copyright p{
+	font-weight: normal;
+	font-size: 1.0em;
+	text-decoration: none;
+	color: #6666CC;
+	padding: 3px 3px 3px 3px;
+}
+
+#sidebar #copyright {	 
+	bottom: 0;
+	left: 5px;
+	width: 225px;
+}
