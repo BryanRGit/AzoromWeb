@@ -1,0 +1,86 @@
+Sub IterateParagraph()
+    Dim fso         As Object
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    
+    Dim Fileout     As Object
+    Set Fileout = fso.CreateTextFile("C:\Users\bryan\eclipse-workspace\AzoromWeb\WebContent\pages\projects\filespec.json", True, True)
+    
+    Fileout.Writeline "{ ""project"": "
+    Fileout.Write "["
+    
+    iParCount = ActiveDocument.Paragraphs.Count
+    Dim wrdRng      As Range
+    passedFirstTitle = FALSE
+    
+    For J = 1 To iParCount
+        Set wrdRng = ActiveDocument.Paragraphs(J).Range
+        
+        If Len(wrdRng.Text) > 2 Then
+            
+            intext = EncodeJson(wrdRng.Text)
+            intext = Replace(Trim(intext), vbCr, "")
+            intext = Replace(Trim(intext), "", "")
+            If wrdRng.Font.Size = 14 And wrdRng.Font.Color = RGB(0, 0, 129) Then
+                passedFirstDescript = FALSE
+                If passedFirstTitle = TRUE Then
+                    Fileout.Write "]}," & vbCr & "{""Title"": """ & intext & ""","
+                Else
+                    passedFirstTitle = TRUE
+                    Fileout.Write vbCr & "{""Title"": """ & intext & ""","
+                End If
+            ElseIf wrdRng.Font.Size = 14 Then
+                
+                openbracket = InStr(1, wrdRng.Text, "(", 0)
+                beforeopen = openbracket - 1
+                Country = Trim(Mid(intext, 1, beforeopen))
+                Fileout.Writeline vbCr & """Country"": """ & Country & ""","
+                beforeopen = beforeopen + 2
+                Duration = Trim(Mid(Trim(intext), beforeopen))
+                
+                beforeclose = InStr(1, Duration, ")", 0) - 1
+                Duration = Trim(Mid(Duration, 1, beforeclose))
+                Fileout.Writeline """Duration"": """ & Duration & ""","
+                Debug.Print "counry", Country
+                Debug.Print "Duration", Duration
+                Fileout.Write """Description"": ["
+                
+            Else
+                If passedFirstDescript = TRUE Then
+                    Fileout.Write "," & vbCr
+                Else
+                    Fileout.Write vbCr
+                    passedFirstDescript = TRUE
+                End If
+                
+                If wrdRng.ListFormat.ListType = _
+                   WdListType.wdListBullet Then
+                Debug.Print "bullet", intext
+                Fileout.Write " {""List"":""Bullet"",""Line"":""" & intext & """}"
+            ElseIf wrdRng.Font.Size = 11 Then
+                Debug.Print "body  ", intext
+                Fileout.Write " {""List"":""Body"",""Line"":""" & intext & """}"
+            End If
+        End If
+        '  [Add processing comments to manipulate sMyPar]
+        '  ActiveDocument.Paragraphs(J).Range.Text = sMyPar
+    End If
+Next J
+Fileout.Write "]}]}"
+Fileout.Close
+End Sub
+
+Public Function EncodeJson(TextToEncode As String) As String
+    Dim Res         As String
+    
+    Dim fromChar
+    
+    Dim toChar
+    fromChar = Array("&", ">", "<", """", "-", "[", "]", "{", "}", "’")
+    toChar = Array("&amp;", "&gt;", "&lt;", "&quot;", "&#45;", "&#91;", "&#93;", "&#123;", "&#125;", "&#8217;")
+    ArrayLen = UBound(fromChar) - LBound(fromChar) + 1
+    For i = 0 To ArrayLen - 1
+        ' Debug.Print ArrayLen, i, fromChar(i), toChar(i)
+        TextToEncode = Replace(TextToEncode, fromChar(i), toChar(i))
+    Next
+    EncodeJson = TextToEncode
+End Function
