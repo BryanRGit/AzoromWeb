@@ -20,24 +20,10 @@
 			],
 			"Photo": "Conor_Lonergan_CHD_5217-small.jpg"
 		},
-		{
+				{
 			"Index": 2,
-			"Name": "Ultan O'Neill",
-			"Title": "Financial Controller",
-			"Qualifications": [
-				"BA Economics",
-				"Associate Institute of Taxation Ireland"
-			],
-			"ShortDescription": [
-				"Over 30 years electricity utility experience in every aspect of accounting and financial control including financial, customer and management accounting; auditing; materials management; procurement and project financing.",
-				"Wide experience of project cost control and monitoring including establishment of a project cost accounting, budgeting and management information systems; production of monthly cost and financial accounts to trial balance; preparation of purchase orders ensuring compliance with tendering and purchasing procedures; reporting to funding agencies including World Bank, Caisse Francaise and ODA.Extensive international consulting experience.Fully conversant with IT technology."
-			],
-			"Photo": "Ultan_O_Neill_CHD_5293-small.jpg"
-		},
-		{
-			"Index": 3,
 			"Name": "Heather Hamilton",
-			"Title": "Accounts Manager",
+			"Title": "Director",
 			"Qualifications": [
 				"BSoc"
 			],
@@ -45,12 +31,36 @@
 			"Photo": "Heather_Hamilton_CHD_5262-small.jpg"
 		},
 		{
+			"Index": 3,
+			"Name": "Gaurav Gupta",
+			"Title": "Financial Controller",
+			"Qualifications": [
+				"Msc IT",
+				"MBA in International Business Management",
+				"ACCA - Association of Chartered Certified Accountants"
+			],
+			"ShortDescription": [],
+			"Photo": "Gaurav Gupta_1336-2.jpg"
+		},
+		{
 			"Index": 4,
+			"Name": "Katalin Foldesi",
+			"Title": "Bid Manager",
+			"Qualifications": [
+				"BA Commence",
+				"Advanced Accounts Diploma",
+				"PRINCE2"
+				],
+			"ShortDescription": [],
+			"Photo": "Katalin Foldesi_1316-2.jpg"
+		},
+		{
+			"Index": 5,
 			"Name": "Charlie Hennessy",
 			"Title": "Commercial Manager",
 			"Qualifications": [
-				"ACMA – Associate Chartered Management Accountants (UK)",
-				"CGMA – Chartered Global Management Accountant"
+				"ACMA - Associate Chartered Management Accountants (UK)",
+				"CGMA - Chartered Global Management Accountant"
 			],
 			"ShortDescription": [
 				""
@@ -58,51 +68,18 @@
 			"Photo": "Charlie Hennessy-small.jpg"
 		},
 		{
-			"Index": 5,
+			"Index": 6,
 			"Name": "Mika Onodera",
 			"Title": "Financial Accountant",
 			"Qualifications": [
 				"BA Business",
 				"Institute of Chartered Accountants"
 			],
-			"ShortDescription": [
-				""
-			],
+			"ShortDescription": [],
 			"Photo": "Mika Onodera-small.jpg"
 		},
 		{
-			"Index": 6,
-			"Name": "Joe Murray",
-			"Title": "Bid Manager",
-			"Qualifications": [
-				"BE",
-				"MAI",
-				"Chartered Engineer MIEI"
-			],
-			"ShortDescription": [
-				"7 years consulting experience as a team leader and project manager on a broad range of electricity utility related projects, mainly in developing countries.",
-				" Highly successful in securing follow on business from satisfied clients.",
-				"10 years experience at senior management level with ESB, the national power utility in Ireland, in the procurement of all goods and services required by a power utility, with a track record of securing value for money in all areas covered.",
-				"Highly experienced in developing specifications and tender documents, tender evaluations, contract negotiation and vendor relationship management.",
-				"25 years experience in ICT, focusing on the design, deployment and support of the administrative and technical IT systems required to support the business.",
-				"Recent experience working on feasibility studies for mining developments  covering multicriteria analysis to identify optimum power supply options, budgetary costs and economic return, obtaining quotations from manufacturers and suppliers, performing discounted cash flow analysis, risk analysis and developing procurement strategy."
-			],
-			"Photo": "Joe_Murray_CHD_5250-small.jpg"
-		},
-		{
 			"Index": 7,
-			"Name": "Justine Nantale",
-			"Title": "Office Manager",
-			"Qualifications": [
-				"BA"
-			],
-			"ShortDescription": [
-				""
-			],
-			"Photo": "Justine_Natale_CHD_5345-small.jpg"
-		},
-		{
-			"Index": 8,
 			"Name": "James Duignan",
 			"Title": "Partnerships Manager",
 			"Qualifications": [
@@ -117,6 +94,20 @@
 			],
 			"Photo": "James_Duignan_CHD_5280-small.jpg"
 		},
+		
+		{
+			"Index": 8,
+			"Name": "Justine Nantale",
+			"Title": "Office Manager",
+			"Qualifications": [
+				"BA"
+			],
+			"ShortDescription": [
+				""
+			],
+			"Photo": "Justine_Natale_CHD_5345-small.jpg"
+		},
+		
 		{
 			"Index": 9,
 			"Name": "Bryan Glynn",
@@ -154,6 +145,25 @@
 		},
 		{
 			"Index": 11,
+			"Name": "Joe Murray",
+			"Title": "Senior Project Manager",
+			"Qualifications": [
+				"BE",
+				"MAI",
+				"Chartered Engineer MIEI"
+			],
+			"ShortDescription": [
+				"7 years consulting experience as a team leader and project manager on a broad range of electricity utility related projects, mainly in developing countries.",
+				" Highly successful in securing follow on business from satisfied clients.",
+				"10 years experience at senior management level with ESB, the national power utility in Ireland, in the procurement of all goods and services required by a power utility, with a track record of securing value for money in all areas covered.",
+				"Highly experienced in developing specifications and tender documents, tender evaluations, contract negotiation and vendor relationship management.",
+				"25 years experience in ICT, focusing on the design, deployment and support of the administrative and technical IT systems required to support the business.",
+				"Recent experience working on feasibility studies for mining developments  covering multicriteria analysis to identify optimum power supply options, budgetary costs and economic return, obtaining quotations from manufacturers and suppliers, performing discounted cash flow analysis, risk analysis and developing procurement strategy."
+			],
+			"Photo": "Joe_Murray_CHD_5250-small.jpg"
+		},
+		{
+			"Index": 12,
 			"Name": "Noel Tobin",
 			"Title": "Technical Specialist",
 			"Qualifications": [
@@ -173,7 +183,7 @@
 			"Photo": "Noel_Tobin_CHD_5204-small.jpg"
 		},
 		{
-			"Index": 12,
+			"Index": 13,
 			"Name": "Timothy Hennessy",
 			"Title": "Senior Project Manager",
 			"Qualifications": [
@@ -190,7 +200,7 @@
 			"Photo": "Timothy_Hennessy-small.jpg"
 		},
 		{
-			"Index": 13,
+			"Index": 14,
 			"Name": "Brian Cronly",
 			"Title": "Senior Project Manager",
 			"Qualifications": [
@@ -204,19 +214,6 @@
 			"Photo": "Brian_Cronly_CHD_5154-small.jpg"
 		},
 		{
-			"Index": 14,
-			"Name": "Michael Mackey",
-			"Title": "Senior Project Manager",
-			"Qualifications": [
-				"MEngSc",
-				"BE"
-			],
-			"ShortDescription": [
-				"Michael has extensive experience in Ireland and overseas on both the design and commissioning of power system facilities having been involved for many years in the engineering, design and management of power plant and High Voltage (HV) network projects.",
-				" He has also been actively involved with CIGRE, the International Council on Large Electric Systems, leading technical working groups and presenting papers on various topics."
-			],
-			"Photo": "Michael_Mackey_CHD_5124-small.jpg"
-		},{
 			"Index": 15,
 			"Name": "Ken Wright",
 			"Title": "Senior Water Consultant",
